@@ -1,0 +1,137 @@
+/*  -- Fonts --  */
+
+.bannerArea,
+.navbar,
+.navContainer input {
+  font-family: "Century Gothic Regular";
+}
+
+html {
+  background-color: #171a1c;
+}
+
+header {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.logoBanner {
+  height: 160px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.logoContainer {
+  min-width: 1100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.logoContainer img {
+  width: 500px;
+  height: 128px;
+}
+
+.banner {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+          align-items: flex-end;
+}
+
+.bannerArea {
+  width: 520px;
+  height: 75px;
+  background-color: #16181a;
+  font-size: 39px;
+  line-height: 75px;
+  color: #83ae01;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.bannerLeft {
+  margin-right: 2px;
+  width: 30px;
+  height: 75px;
+  background-color: #83ae01;
+}
+
+.navSearch {
+  width: 100%;
+  height: 45px;
+  background-color: #141618;
+}
+
+.navContainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: flex;
+}
+
+.navbar {
+  padding: 0 10px;
+  color: #fff;
+  line-height: 45px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.navbar:hover {
+  background-color: #83ad01;
+}
+
+.searchArea {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.navContainer input {
+  width: 220px;
+  height: 32px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #1d2124;
+  background-color: #17191c;
+  padding: 0 10px;
+}
+
+.btnSearch {
+  width: 34;
+  height: 34px;
+  padding: 6px;
+  margin: 0 2px;
+  background-color: #83ad01;
+  border: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btnSearch:hover {
+  background-color: #6e9105;
+}
+
+.btnSearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
