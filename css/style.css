@@ -34,6 +34,7 @@ header {
 .logoContainer img {
   width: 500px;
   height: 128px;
+  margin-bottom: 8px;
 }
 
 .banner {
