@@ -1,26 +1,21 @@
 /*  -- Fonts --  */
 
-.bannerArea,
-.navbar,
-.navContainer input {
-  font-family: "Century Gothic Regular";
-}
-
-html {
+body {
   background-color: #171a1c;
+  font-family: "Century Gothic Regular";
+  color: #fff;
 }
 
-header {
-  width: 1100px;
-  margin: 0 auto;
-}
+/*  -- Header --  */
 
 .logoBanner {
+  width: 1100px;
   height: 160px;
+  margin: 0 auto;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .logoContainer {
@@ -28,7 +23,7 @@ header {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .logoContainer img {
@@ -41,7 +36,7 @@ header {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
 }
 
 .bannerArea {
@@ -53,9 +48,9 @@ header {
   color: #83ae01;
   text-align: center;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .bannerLeft {
@@ -72,12 +67,14 @@ header {
 }
 
 .navContainer {
+  width: 1100px;
+  margin: 0 auto;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 nav {
@@ -102,7 +99,7 @@ nav {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .navContainer input {
@@ -136,3 +133,285 @@ nav {
   clear: both;
   display: table;
 }
+
+/*  -- Main --  */
+
+main {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.bgContainer {
+  width: 1100px;
+  height: 419px;
+  /* margin-bottom: 20px; */
+  padding: 0;
+}
+
+.bgImage {
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+  height: 419px;
+}
+
+.backgroundContent {
+  position: relative;
+  top: -118px;
+  z-index: 2;
+  min-width: 511px;
+  height: 71px;
+  margin-right: 25px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.backgroundContent h2,
+.backgroundContent h3,
+.backgroundContent h4 {
+  color: #fff;
+}
+
+.backgroundContent h3,
+.backgroundContent h4 {
+  font-size: 18px;
+}
+
+.backgroundContent h2 {
+  font-size: 30px;
+}
+
+.backgroundContent h3 {
+  font-style: italic;
+}
+
+.underBg {
+  width: 1100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.leftNavContainer,
+.rightNavContainer {
+  width: 617px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: 2px solid #272c30;
+  margin-bottom: 12px;
+}
+
+.rightNavContainer {
+  width: 463px;
+}
+
+.rightNav {
+  width: 463px;
+}
+
+.navCategory {
+  margin-top: 20px;
+  height: 31px;
+  margin-left: 11px;
+}
+
+.navCategory a {
+  margin-right: 1px;
+  padding: 0 11px;
+  font-size: 14px;
+  line-height: 31px;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #191c1f;
+}
+.navCategory a:hover {
+  background-color: #272c30;
+}
+
+.scrollNavBtn {
+  display: -webkit-box;
+  display: flex;
+  box-sizing: border-box;
+  margin: 15px 0 5px 0;
+}
+
+.leftPart {
+  padding-right: 11px;
+}
+
+.prev,
+.next {
+  margin: 0 1px;
+  width: 29px;
+  height: 29px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.triangle1,
+.triangle2 {
+  background-color: #fff;
+  position: relative;
+  left: 1px;
+  width: 11px;
+  height: 11px;
+  -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+          clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.triangle1 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  left: -1px;
+}
+
+.filmContainer {
+  display: -webkit-box;
+  display: flex;
+  margin-left: 11px;
+}
+
+.filmPost {
+  position: relative;
+}
+
+.filmPost.nom1 {
+  z-index: 4;
+  margin-right: 6px;
+}
+
+.filmPost.nom2 {
+  z-index: 3;
+  margin: 0 6px;
+}
+
+.filmPost.nom3 {
+  z-index: 2;
+  margin: 0 6px;
+}
+
+.filmPost.nom4 {
+  z-index: 1;
+  margin-left: 6px;
+}
+
+.filmPost a {
+  display: -webkit-box;
+  display: flex;
+  text-decoration: none;
+}
+
+.filmPost a:link,
+.filmPost a:visited {
+  color: #fff;
+}
+
+.poster {
+  /* margin-top: 12px; */
+  width: 140px;
+  height: 210px;
+}
+
+.poster:hover {
+  margin: -6px -6px -6px -6px;
+  border: 6px solid #020202;
+}
+
+.filmPost section {
+  position: absolute;
+  left: 140px;
+  height: 210px;
+  border: 6px solid #020202;
+  border-right: 0px;
+  margin: -6px 0 -6px 6px;
+  padding-left: 3px;
+  background-color: rgba(0, 0, 0, 0.75);
+  visibility: hidden;
+}
+
+.filmPost:hover section {
+  visibility: visible;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.filmPost:hover section:hover {
+  visibility: hidden;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.filmPost h2 {
+  padding: 7px 0 11px 0;
+  font-size: 12px;
+  color: #6b8f09;
+  text-transform: uppercase;
+}
+
+.filmPost p {
+  min-width: 206px;
+  max-width: 206px;
+  height: 160px;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.filmPost div {
+  width: 100px;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  box-sizing: border-box;
+}
+
+.filmPost div img {
+  width: 24px;
+  height: 15px;
+}
+
+.filmPost span {
+  font-size: 11px;
+}
+
+.playerContainer {
+  width: 438px;
+  height: 276px;
+  box-sizing: border-box;
+  border: 1px solid #1d2023;
+  background-color: #171a1c;
+  margin: 0 auto 12px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  width: 50px;
+  height: 52px;
+  background-color: #434950;
+  clip-path: polygon(0 0, 100% 50%,0 100%);
+}
+
