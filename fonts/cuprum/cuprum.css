@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Cuprum';
+    src: local('Cuprum'), local('Cuprum-Regular'), url('cuprum.woff2') format('woff2'), url('cuprum.woff') format('woff'), url('cuprum.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cuprum';
+    src: local('Cuprum Italic'), local('Cuprum-Italic'), url('cuprumitalic.woff2') format('woff2'), url('cuprumitalic.woff') format('woff'), url('cuprumitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Cuprum';
+    src: local('Cuprum Bold'), local('Cuprum-Bold'), url('cuprumbold.woff2') format('woff2'), url('cuprumbold.woff') format('woff'), url('cuprumbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cuprum';
+    src: local('Cuprum Bold Italic'), local('Cuprum-BoldItalic'), url('cuprumbolditalic.woff2') format('woff2'), url('cuprumbolditalic.woff') format('woff'), url('cuprumbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
