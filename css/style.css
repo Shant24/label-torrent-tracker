@@ -190,6 +190,11 @@ nav {
   border: 1px solid #1d2124;
   background-color: #17191c;
   padding: 0 10px;
+  outline:none;
+}
+
+.navContainer input:hover {
+  background-color: #2c2f35;
 }
 
 .btnSearch {
@@ -346,12 +351,14 @@ main {
 }
 
 .backgroundContent {
-  position: relative;
-  top: -118px;
+  position: absolute;
+  bottom: 43px;
+  right: 25px;
   z-index: 2;
   min-width: 511px;
   height: 71px;
   margin-right: 25px;
+  letter-spacing: -1px;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: end;
