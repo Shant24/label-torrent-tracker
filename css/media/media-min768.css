@@ -1,0 +1,430 @@
+@media screen and (max-width: 1200px) {
+  /*  -- Header --  */
+
+  main,
+  .logoBanner,
+  .navContainer,
+  .bgContainer,
+  .bgImage,
+  .bgBtnContainer,
+  .underBg,
+  .footerDiv,
+  .contentContainer {
+    width: 660px;
+  }
+
+  .logoBanner {
+    height: 96px;
+  }
+
+  .logoContainer {
+    min-width: 660px;
+  }
+
+  .logoContainer img {
+    width: 300px;
+    height: 77px;
+    margin-bottom: 5px;
+  }
+
+  .bannerArea {
+    width: 312px;
+    height: 45px;
+    font-size: 23px;
+    line-height: 45px;
+  }
+
+  .bannerLeft {
+    width: 18px;
+    height: 45px;
+  }
+
+  .navSearch {
+    height: 27px;
+  }
+
+  .navbar {
+    padding: 0 6px;
+    line-height: 27px;
+    font-size: 8px;
+  }
+
+  .triangleContainer {
+    width: 60px;
+    height: 10px;
+  }
+
+  .TopTriangle {
+    width: 10px;
+    height: 6px;
+  }
+
+  .dropMenu {
+    top: 36px;
+    width: 102px;
+    height: 156px;
+    padding-top: 4px;
+  }
+
+  .partOfMenu {
+    line-height: 16px;
+  }
+
+  .leftMenu {
+    width: 4px;
+    height: 16px;
+  }
+
+  .rightMenu {
+    padding-left: 4px;
+    padding-bottom: 2px;
+    width: 97px;
+    height: 16px;
+    line-height: 14px;
+    font-size: 8px;
+  }
+
+  .navContainer input {
+    width: 132px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 9px;
+    padding: 0 6px;
+    margin-bottom: 1px;
+  }
+
+  .btnSearch {
+    width: 22px;
+    height: 22px;
+    padding: 4px;
+    margin: 0 1px 1px 1px;
+  }
+
+  .btnSearch img {
+    width: 13px;
+    height: 13px;
+  }
+
+  /*  -- Main --  */
+
+  .bgContainer,
+  .bgImage {
+    height: 251px;
+  }
+
+  .bgBtnContainer {
+    padding: 0 13px;
+  }
+
+  .bgBtn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .bgLeft,
+  .bgRight {
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+
+  .bgNumberContainer {
+    bottom: 10px;
+  }
+
+  .backgroundContent {
+    bottom: 27px;
+    right: 15px;
+    min-width: 307px;
+    height: 43px;
+    margin-right: 15px;
+  }
+
+  .backgroundContent h3,
+  .backgroundContent h4 {
+    font-size: 11px;
+  }
+
+  .backgroundContent h2 {
+    font-size: 18px;
+  }
+
+  .leftNavContainer,
+  .rightNavContainer {
+    width: 370px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #272c30;
+  }
+
+  .rightNavContainer {
+    width: 278px;
+    height: 31px;
+  }
+
+  .rightNav {
+    width: 278px;
+  }
+
+  .navCategory {
+    margin-top: 12px;
+    height: 19px;
+    margin-left: 7px;
+  }
+
+  .navCategory a {
+    padding: 0 7px;
+    font-size: 8px;
+    line-height: 19px;
+  }
+
+  .scrollNavBtn {
+    margin: 7px 0 1px 0;
+  }
+
+  .leftPartBtn {
+    padding-right: 7px;
+  }
+
+  .prev,
+  .next {
+    width: 20px;
+    height: 20px;
+  }
+
+  .triangle1,
+  .triangle2 {
+    width: 8px;
+    height: 8px;
+  }
+
+  .filmContainer {
+    margin-left: 7px;
+  }
+
+  .filmPost.nom1 {
+    margin-right: 4px;
+  }
+
+  .filmPost.nom2,
+  .filmPost.nom3 {
+    margin: 0 4px;
+  }
+
+  .filmPost.nom4 {
+    margin-left: 4px;
+  }
+
+  .poster {
+    width: 84px;
+    height: 126px;
+  }
+
+  .poster:hover {
+    margin: -4px -4px;
+    border: 4px solid #020202;
+  }
+
+  .filmPost section {
+    left: 84px;
+    height: 126px;
+    border: 4px solid #020202;
+    margin: -4px 0 -4px 4px;
+    padding: 0 8px 0 2px;
+  }
+
+  .filmPost h2 {
+    padding: 4px 0 7px 0;
+    font-size: 7px;
+  }
+
+  .filmPost p {
+    min-width: 124px;
+    max-width: 124px;
+    height: 96px;
+    font-size: 7px;
+    line-height: 8px;
+  }
+
+  .filmPost div img {
+    width: 14px;
+    height: 9px;
+  }
+
+  .filmPost span {
+    font-size: 7px;
+  }
+
+  .playerContainer {
+    width: 263px;
+    height: 166px;
+    margin: 0 auto 7px auto;
+  }
+
+  .contentContainer {
+    height: 676px;
+  }
+
+  .content {
+    width: 491px;
+  }
+
+  .bigContent {
+    height: 184px;
+  }
+
+  .someInformation {
+    width: 461px;
+    height: 155px;
+  }
+
+  .someInformation h2 {
+    margin-top: -3px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .someInformation img {
+    width: 181px;
+    height: 130px;
+  }
+
+  .someInformation span {
+    font-size: 8px;
+    margin-left: 5px;
+  }
+
+  .mainBottom {
+    height: 448px;
+  }
+
+  .aboutPerson {
+    height: 392px;
+  }
+
+  .leftPart,
+  .rightPart {
+    height: 78px;
+    padding-left: 6px;
+  }
+
+  .leftPart {
+    width: 245px;
+  }
+
+  .rightPart {
+    width: 246px;
+  }
+
+  .leftPart h2,
+  .rightPart h2 {
+    padding: 8px 0 5px 0;
+    font-size: 7px;
+  }
+
+  .leftPart img,
+  .rightPart img {
+    width: 70px;
+    height: 52px;
+  }
+
+  .leftPart p,
+  .rightPart p {
+    min-width: 38px;
+    padding-left: 4px;
+    font-size: 7px;
+  }
+
+  .pageNumber {
+    width: 245px;
+    height: 59px;
+  }
+
+  .pages {
+    width: 245px;
+    font-size: 14px;
+  }
+
+  .bottomBtn {
+    padding-left: 8px;
+  }
+
+  .nextBtn {
+    margin-left: 1px;
+  }
+
+  .rightBox {
+    width: 169px;
+    height: 632px;
+    padding: 9px 8px;
+  }
+
+  .rightBox h2 {
+    font-size: 8px;
+    margin-bottom: 9px;
+  }
+
+  .csGame.n2 {
+    margin: 7px 0 11px 0;
+  }
+
+  .csGame img {
+    width: 60px;
+    height: 45px;
+  }
+
+  .textContainer {
+    font-size: 8px;
+    padding-top: 2px;
+    padding-left: 4px;
+  }
+
+  .bannerPlace {
+    width: 154px;
+    height: 206px;
+  }
+
+  .bannerPlace img {
+    width: 107px;
+    height: 77px;
+  }
+
+  .bannerPlace h6 {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #434950;
+  }
+
+  footer {
+    height: 57px;
+  }
+
+  .footerDiv {
+    line-height: 57px;
+  }
+
+  .footerLogo {
+    width: 238px;
+    height: 57px;
+    font-size: 22px;
+  }
+
+  .textSize {
+    font-size: 14px;
+  }
+
+  .developer {
+    font-size: 8px;
+    margin-left: 11px;
+  }
+
+  .forUsers {
+    padding: 6px 8px;
+    font-size: 10px;
+    right: -33px;
+    top: 154px;
+  }
+
+  .forUsers:hover {
+    font-size: 11px;
+    right: -36px;
+  }
+}
