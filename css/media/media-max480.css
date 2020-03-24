@@ -605,7 +605,7 @@
   .filmPost.nom1 {
     z-index: 4;
     margin: 0;
-    padding: 0 0 10px 10px;
+    padding: 0 0 10px 5px;
   }
 
   .filmPost.nom2 {
@@ -665,14 +665,13 @@
   }
 
   .filmPost h2 {
-    padding: 8px 0 8px 0;
+    padding: 5px 0;
     font-size: 16px;
     color: #6b8f09;
     text-transform: uppercase;
   }
 
   .filmPost p {
-    min-width: 250px;
     max-width: 400px;
     height: 160px;
     font-size: 13px;
@@ -680,23 +679,7 @@
   }
 
   .filmPost div {
-    width: 150px;
-    display: -webkit-box;
-    display: flex;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-  }
-
-  .filmPost div img {
-    width: 24px;
-    height: 15px;
-  }
-
-  .filmPost span {
-    font-size: 11px;
+    display: none;
   }
 
   .playerContainer {
@@ -849,7 +832,7 @@
 
   .pageNumber {
     width: 100%;
-    height: 98px;
+    height: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -857,8 +840,8 @@
   }
 
   .pages {
-    width: 408px;
-    font-size: 24px;
+    width: 100%;
+    font-size: 26px;
     display: -webkit-box;
     display: flex;
     justify-content: space-around;
@@ -906,7 +889,7 @@
   footer {
     position: relative;
     left: 0;
-    bottom: -907px;
+    bottom: -945px;
     width: 100vw;
     height: 190px;
     background-color: #141618;
