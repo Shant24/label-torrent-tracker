@@ -20,6 +20,9 @@
 
     <!-- On screens that are 480px wide or less -->
     <link rel="stylesheet" href="css/media/media-max480.css" />
+
+    <!-- On screens that are 320px wide or less -->
+    <link rel="stylesheet" href="css/media/media-max320.css" />
   </head>
   <body>
     <header>
@@ -28,77 +31,95 @@
           <a href="index.html"><img src="img/logo.png" alt="logo"/></a>
           <div class="banner">
             <div class="bannerArea">место для баннера</div>
-            <div class="bannerLeft"></div>
+            <div class="bannerRight"></div>
+          </div>
+          <div class="menuIconWrapper">
+            <div class="menuIcon"></div>
           </div>
         </div>
       </div>
-      <div class="navSearch">
-        <div class="navContainer">
-          <nav>
-            <div class="navbar"><a href="index.html">ГЛАВНАЯ</a></div>
-            <div class="navbar"><a href="index.html">ФОРУМ</a></div>
-            <div class="navbar part3">
-              <a href="index.html">КАТЕГОРИИ</a>
-              <div class="triangleContainer p3">
-                <div class="TopTriangle p3"></div>
+      <div class="forMobile">
+        <div class="navSearch navSearchActive">
+          <div class="navContainer">
+            <nav>
+              <div class="navbar"><a href="index.html">ГЛАВНАЯ</a></div>
+              <div class="navbar"><a href="index.html">ФОРУМ</a></div>
+              <div class="navbar part3">
+                <span>КАТЕГОРИИ</span>
+                <div class="triangleContainer p3">
+                  <div class="TopTriangle p3"></div>
+                </div>
+                <div class="dropMenu p3">
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">фильмы</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">сериалы</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">аниме</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">клипы</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">музыка</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">спорт</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">игры</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">софт</a>
+                  </div>
+                  <div class="partOfMenu">
+                    <div class="leftMenu"></div>
+                    <a class="rightMenu" href="">разное</a>
+                  </div>
+                </div>
               </div>
-              <div class="dropMenu p3">
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">фильмы</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">сериалы</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">аниме</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">клипы</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">музыка</a>
-                  <span></span>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">спорт</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">игры</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">софт</a>
-                </div>
-                <div class="partOfMenu">
-                  <div class="leftMenu"></div>
-                  <a class="rightMenu" href="">разное</a>
-                </div>
-              </div>
-            </div>
-            <div class="navbar"><a href="index.html">ЗАГРУЗИТЬ</a></div>
-            <div class="navbar"><a href="index.html">СТОЛ ЗАКАЗОВ</a></div>
-            <div class="navbar"><a href="index.html">ПРАВИЛА</a></div>
-            <div class="navbar"><a href="index.html">АДМИНИСТРАЦИЯ</a></div>
-          </nav>
-          <form class="searchArea" action="">
-            <input type="text" placeholder="ПОИСК ПО САЙТУ..." name="search" />
-            <button class="btnSearch" type="submit">
-              <img src="img/btnSearch.png" alt="Search button" />
-            </button>
-          </form>
+              <div class="navbar"><a href="index.html">ЗАГРУЗИТЬ</a></div>
+              <div class="navbar"><a href="index.html">СТОЛ ЗАКАЗОВ</a></div>
+              <div class="navbar"><a href="index.html">ПРАВИЛА</a></div>
+              <div class="navbar"><a href="index.html">АДМИНИСТРАЦИЯ</a></div>
+            </nav>
+            <form class="searchArea" action="">
+              <input
+                type="text"
+                placeholder="ПОИСК ПО САЙТУ..."
+                name="search"
+              />
+              <button class="btnSearch" type="submit">
+                <img src="img/btnSearch.png" alt="Search button" />
+              </button>
+            </form>
+          </div>
         </div>
+        <form class="searchArea1" action="">
+          <input
+            type="text"
+            placeholder="ПОИСК ПО САЙТУ..."
+            name="search"
+          />
+          <button class="btnSearch1" type="submit">
+            <img src="img/btnSearch.png" alt="Search button" />
+          </button>
+        </form>
+        <a class="forUserBack" href="#">
+          <span class="forUsers">Вход/Регистрация</span>
+        </a>
       </div>
     </header>
-    <a href="#">
-      <span class="forUsers">Вход/Регистрация</span>
-    </a>
     <main>
       <div class="bgContainer">
         <img class="bgImage" src="img/bgBig.png" alt="background" />
@@ -496,5 +517,7 @@
         <h2 class="developer">Дизайн шаблона: <span>Floock</span></h2>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

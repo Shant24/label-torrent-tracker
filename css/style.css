@@ -67,11 +67,15 @@ body {
   text-align: center;
 }
 
-.bannerLeft {
+.bannerRight {
   width: 30px;
   height: 75px;
   margin-right: 2px;
   background-color: #83ae01;
+}
+
+.menuIconWrapper {
+  display: none;
 }
 
 .navSearch {
@@ -104,6 +108,11 @@ nav {
   position: relative;
 }
 
+.navbar span {
+  display: block;
+  cursor: pointer;
+}
+
 .navbar a {
   text-decoration: none;
   color: #fff;
@@ -116,9 +125,13 @@ nav {
 .triangleContainer,
 .dropMenu {
   position: absolute;
-  z-index: 100;
+  z-index: 3;
   display: none;
 }
+
+/* .navbar.part3 .p3 {
+  display: none;
+} */
 
 .navbar.part3:hover .p3 {
   display: block;
@@ -145,6 +158,17 @@ nav {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (min-width: 1201px) {
+  .TopTriangle {
+    bottom: -0.5px;
+  }
+
+  .triangleContainer,
+  .dropMenu {
+    overflow: hidden;
+  }
+}
+
 .dropMenu {
   left: 0px;
   top: 60px;
@@ -158,7 +182,6 @@ nav {
 .partOfMenu {
   display: -webkit-box;
   display: flex;
-  line-height: 27px;
 }
 
 .partOfMenu:hover .leftMenu {
@@ -191,6 +214,10 @@ nav {
   align-items: center;
 }
 
+.searchArea1 {
+  display: none;
+}
+
 .navContainer input {
   width: 220px;
   height: 32px;
@@ -202,6 +229,7 @@ nav {
   padding: 0 10px;
   outline: none;
   border-radius: 0%;
+  box-sizing: border-box;
 }
 
 .navContainer input:hover {
@@ -209,9 +237,8 @@ nav {
 }
 
 .btnSearch {
-  width: 34;
+  width: 34px;
   height: 34px;
-  padding: 6px;
   margin: 0 2px;
   background-color: #83ad01;
   border: 0px;
@@ -279,7 +306,7 @@ main {
 .bgBtnContainer {
   position: absolute;
   top: 50%;
-  z-index: 4;
+  z-index: 2;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   width: 1100px;
@@ -333,7 +360,7 @@ main {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  z-index: 4;
+  z-index: 2;
   width: 138px;
   height: 7px;
   display: -webkit-box;
@@ -433,10 +460,6 @@ main {
   height: 51px;
 }
 
-.rightNav {
-  width: 463px;
-}
-
 .navCategory {
   margin-top: 20px;
   height: 31px;
@@ -503,9 +526,9 @@ main {
 }
 
 .filmContainer {
+  margin-left: 11px;
   display: -webkit-box;
   display: flex;
-  margin-left: 11px;
 }
 
 .filmPost {
@@ -709,8 +732,8 @@ main {
 .leftPart,
 .rightPart {
   height: 130px;
-  box-sizing: border-box;
   padding-left: 10px;
+  box-sizing: border-box;
   border-bottom: 1px solid #171a1c;
   cursor: pointer;
 }
@@ -919,7 +942,7 @@ footer {
   font-size: 16px;
   font-family: "Cuprum";
   position: fixed;
-  z-index: 10;
+  z-index: 4;
   right: -52px;
   top: 257px;
   -webkit-transform: rotate(270deg);

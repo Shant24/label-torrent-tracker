@@ -1,0 +1,447 @@
+@media screen and (max-width: 767px) {
+  /*  -- Header --  */
+
+  main,
+  .logoBanner,
+  .navContainer,
+  .bgContainer,
+  .bgImage,
+  .bgBtnContainer,
+  .underBg,
+  .footerDiv,
+  .contentContainer {
+    width: 440px;
+  }
+
+  .logoBanner {
+    height: 64px;
+  }
+
+  .logoContainer {
+    min-width: 440px;
+  }
+
+  .logoContainer img {
+    width: 200px;
+    height: 51px;
+    margin-bottom: 3px;
+  }
+
+  .bannerArea {
+    width: 208px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .bannerRight {
+    width: 12px;
+    height: 30px;
+    margin-right: 1px;
+  }
+
+  .navSearch {
+    height: 18px;
+  }
+
+  .navbar {
+    padding: 0 4px;
+    line-height: 18px;
+    font-size: 6px;
+  }
+
+  .triangleContainer {
+    width: 40px;
+    height: 8px;
+  }
+
+  .TopTriangle {
+    width: 10px;
+    height: 6px;
+  }
+
+  .dropMenu {
+    top: 26px;
+    width: 80px;
+    height: 150px;
+    padding-top: 3px;
+  }
+
+  .leftMenu {
+    width: 4px;
+    height: 16px;
+  }
+
+  .rightMenu {
+    padding-left: 4px;
+    padding-top: 1px;
+    width: 97px;
+    height: 16px;
+    line-height: 14px;
+    font-size: 7px;
+  }
+
+  .navContainer input {
+    width: 100px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 8x;
+    padding: 0 4px;
+    margin-top: 1px;
+  }
+
+  .btnSearch {
+    width: 14px;
+    height: 14px;
+    margin: 0 1px 0 1px;
+    position: relative;
+  }
+
+  .btnSearch img {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 9px;
+    height: 9px;
+  }
+
+  /*  -- Main --  */
+
+  .bgContainer,
+  .bgImage {
+    height: 168px;
+  }
+
+  .bgBtnContainer {
+    padding: 0 13px;
+  }
+
+  .bgBtn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .bgLeft,
+  .bgRight {
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+
+  .bgNumberContainer {
+    bottom: 10px;
+  }
+
+  .backgroundContent {
+    bottom: 17px;
+    right: 10px;
+    min-width: 204px;
+    height: 28px;
+    margin-right: 10px;
+    letter-spacing: -0.5px;
+  }
+
+  .backgroundContent h3,
+  .backgroundContent h4 {
+    font-size: 7px;
+  }
+
+  .backgroundContent h2 {
+    font-size: 12px;
+  }
+
+  .leftNavContainer,
+  .rightNavContainer {
+    width: 247px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #272c30;
+  }
+
+  .rightNavContainer {
+    width: 185px;
+    height: 20px;
+  }
+
+  .rightNav {
+    width: 185px;
+  }
+
+  .navCategory {
+    margin-top: 8px;
+    height: 12px;
+    margin-left: 4px;
+  }
+
+  .navCategory a {
+    padding: 0 4px;
+    font-size: 6px;
+    line-height: 12px;
+  }
+
+  .scrollNavBtn {
+    margin: 6px 0 1px 0;
+  }
+
+  .leftPartBtn {
+    padding-right: 4px;
+  }
+
+  .prev,
+  .next {
+    margin: -3px 1px -1px 0;
+    width: 15px;
+    height: 15px;
+  }
+
+  .triangle1,
+  .triangle2 {
+    width: 5px;
+    height: 5px;
+  }
+
+  .triangle1 {
+    left: 0px;
+  }
+
+  .triangle2 {
+    left: 0.5px;
+  }
+
+  .filmContainer {
+    margin-left: 4px;
+  }
+
+  .filmPost.nom1 {
+    margin-right: 2px;
+  }
+
+  .filmPost.nom2,
+  .filmPost.nom3 {
+    margin: 0 2px;
+  }
+
+  .filmPost.nom4 {
+    margin-left: 2px;
+  }
+
+  .poster {
+    width: 56px;
+    height: 84px;
+  }
+
+  .poster:hover {
+    margin: -2px -2px;
+    border: 4px solid #020202;
+  }
+
+  .filmPost section {
+    left: 56px;
+    height: 84px;
+    border: 2px solid #020202;
+    margin: -2px 0 -2px 2px;
+    padding: 0 2px 0 1px;
+  }
+
+  .filmPost h2 {
+    padding: 3px 0 2px 0;
+    font-size: 6px;
+  }
+
+  .filmPost p {
+    min-width: 95px;
+    max-width: 95px;
+    height: 64px;
+    font-size: 5px;
+    line-height: 5px;
+  }
+
+  .filmPost div img {
+    width: 10px;
+    height: 6px;
+  }
+
+  .filmPost span {
+    font-size: 6px;
+  }
+
+  .playerContainer {
+    width: 175px;
+    height: 110px;
+    margin: 0 0 5px 4px;
+  }
+
+  .player {
+    width: 30px;
+    height: 36px;
+  }
+
+  .contentContainer {
+    height: 451px;
+  }
+
+  .content {
+    width: 327px;
+  }
+
+  .bigContent {
+    height: 122px;
+  }
+
+  .someInformation {
+    width: 308px;
+    height: 103px;
+  }
+
+  .someInformation h2 {
+    margin-top: -2px;
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .someInformation img {
+    width: 121px;
+    height: 86px;
+  }
+
+  .someInformation span {
+    font-size: 6px;
+    margin-left: 4px;
+  }
+
+  .mainBottom {
+    height: 305px;
+  }
+
+  .aboutPerson {
+    height: 265px;
+  }
+
+  .leftPart,
+  .rightPart {
+    height: 53px;
+    padding-left: 4px;
+  }
+
+  .leftPart {
+    width: 163px;
+  }
+
+  .rightPart {
+    width: 164px;
+  }
+
+  .leftPart h2,
+  .rightPart h2 {
+    padding: 3px 0 4px 0;
+    font-size: 5px;
+  }
+
+  .leftPart img,
+  .rightPart img {
+    width: 46px;
+    height: 35px;
+  }
+
+  .leftPart p,
+  .rightPart p {
+    min-width: 26px;
+    padding-left: 2px;
+    font-size: 5px;
+  }
+
+  .pageNumber {
+    width: 163px;
+    height: 39px;
+  }
+
+  .pages {
+    width: 163px;
+    font-size: 10px;
+  }
+
+  .bottomBtn {
+    padding-left: 6px;
+  }
+
+  .nextBtn {
+    margin-left: 1px;
+  }
+
+  .rightBox {
+    width: 113px;
+    height: 427px;
+    padding: 6px 5px;
+  }
+
+  .rightBox h2 {
+    font-size: 6px;
+    margin-bottom: 6px;
+  }
+
+  .csGame.n2 {
+    margin: 5px 0 6px 0;
+  }
+
+  .csGame img {
+    width: 40px;
+    height: 30px;
+  }
+
+  .textContainer {
+    font-size: 6px;
+    padding-top: 1px;
+    padding-left: 2px;
+  }
+
+  .bannerPlace {
+    width: 102px;
+    height: 138px;
+  }
+
+  .bannerPlace img {
+    width: 71px;
+    height: 51px;
+  }
+
+  .bannerPlace h6 {
+    font-size: 10px;
+    margin-top: 6px;
+    color: #434950;
+  }
+
+  /*  -- footer --  */
+
+  footer {
+    height: 38px;
+  }
+
+  .footerDiv {
+    line-height: 38px;
+  }
+
+  .footerLogo {
+    width: 159px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .textSize {
+    font-size: 10px;
+  }
+
+  .developer {
+    font-size: 6px;
+    margin-left: 7px;
+  }
+
+  .forUsers {
+    padding: 4px 5px;
+    font-size: 6px;
+    right: -21px;
+    top: 101px;
+  }
+
+  .forUsers:hover {
+    font-size: 7px;
+    right: -23px;
+  }
+}

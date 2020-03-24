@@ -34,7 +34,7 @@
     line-height: 45px;
   }
 
-  .bannerLeft {
+  .bannerRight {
     width: 18px;
     height: 45px;
   }
@@ -66,10 +66,6 @@
     padding-top: 4px;
   }
 
-  .partOfMenu {
-    line-height: 16px;
-  }
-
   .leftMenu {
     width: 4px;
     height: 16px;
@@ -94,8 +90,8 @@
   }
 
   .btnSearch {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     padding: 4px;
     margin: 0 1px 1px 1px;
   }
@@ -392,6 +388,8 @@
     margin-top: 8px;
     color: #434950;
   }
+
+  /*  -- footer --  */
 
   footer {
     height: 57px;
