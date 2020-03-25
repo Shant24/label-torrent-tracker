@@ -509,6 +509,11 @@
     overflow: hidden;
   }
 
+  /* .undeBgDiv1 {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  } */
+
   .leftNavContainer,
   .rightNavContainer {
     width: 100vw;
@@ -518,12 +523,13 @@
 
   .leftNavContainer {
     width: 100vw;
-    margin: 3px 0 0 0;
+    margin: 5px 0 0 0;
   }
 
   .rightNavContainer {
     width: 100vw;
     height: 40px;
+    margin-top: 5px;
   }
 
   .navCategory {
@@ -672,6 +678,7 @@
   }
 
   .filmPost p {
+    min-width: 210px;
     max-width: 400px;
     height: 160px;
     font-size: 13px;
@@ -683,12 +690,12 @@
   }
 
   .playerContainer {
-    width: 400px;
+    width: 350px;
     height: 250px;
     box-sizing: border-box;
     border: 1px solid #1d2023;
     background-color: #171a1c;
-    margin: 0 auto 12px auto;
+    margin: 12px auto;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -889,7 +896,7 @@
   footer {
     position: relative;
     left: 0;
-    bottom: -945px;
+    bottom: -935px;
     width: 100vw;
     height: 190px;
     background-color: #141618;
