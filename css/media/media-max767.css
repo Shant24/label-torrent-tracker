@@ -132,6 +132,7 @@
   }
 
   .backgroundContent {
+    position: sticky;
     bottom: 17px;
     right: 10px;
     min-width: 204px;
