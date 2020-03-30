@@ -29,10 +29,10 @@ let selectedImg = 0;
 
 function resetSelectedImageCircle() {
   let current = document.getElementsByClassName("selectedBg");
-  for (let i = 0; i < current.length; i++){
-    current[i].className = current[i].className.replace(" selectedBg", "");
-  }
-  // current[0].className = current[0].className.replace(" selectedBg", "");
+  current[0].className = current[0].className.replace(" selectedBg", "");
+//   for (let i = 0; i < current.length; i++){
+//     current[i].className = current[i].className.replace(" selectedBg", "");
+//   }
 }
 
 // Window Resize
@@ -42,46 +42,38 @@ window.addEventListener("resize", () => {
   bgSlide.style.left = childBack + "px";
 });
 
-//  Right Button
+// Right Button
 bgBtnRight.onclick = function() {
   childBack = -(selectedImg + 1) * imgWidth;
   if (childBack == -(imgLength * imgWidth)) {
     childBack = 0;
   }
-  // childBack -= imgWidth;
-  // if (childBack == -(imgLength * imgWidth)) {
-  //   childBack = 0;
-  // }
   bgSlide.style.left = childBack + "px";
-  resetSelectedImageCircle(); // current[0].className = current[0].className.replace(" selectedBg", "");
-  let index = Math.abs(childBack / imgWidth);
-  bgNumbers[index].classList.add("selectedBg");
-  selectedImg = Math.round(Math.abs(childBack / imgWidth)); // voroshum enq nkari indexe
-  console.log(selectedImg);
-};
-
-//  Left Button
-bgBtnLeft.onclick = function() {
-  childBack = -(selectedImg - 1) * imgWidth;
-  if (childBack == imgWidth) {
-    childBack = 0;
-  }
-  // childBack += imgWidth;
-  // if (childBack == imgWidth) {
-  //   childBack = 0;
-  // }
-  bgSlide.style.left = childBack + "px";
-  resetSelectedImageCircle(); // current[0].className = current[0].className.replace(" selectedBg", "");
+  resetSelectedImageCircle();
   let index = Math.abs(childBack / imgWidth);
   bgNumbers[index].classList.add("selectedBg");
   selectedImg = Math.round(Math.abs(childBack / imgWidth));
   console.log(selectedImg);
 };
 
-//  Bottom Slider
+// Left Button
+bgBtnLeft.onclick = function() {
+  childBack = -(selectedImg - 1) * imgWidth;
+  if (childBack == imgWidth) {
+    childBack = 0;
+  }
+  bgSlide.style.left = childBack + "px";
+  resetSelectedImageCircle();
+  let index = Math.abs(childBack / imgWidth);
+  bgNumbers[index].classList.add("selectedBg");
+  selectedImg = Math.round(Math.abs(childBack / imgWidth));
+  console.log(selectedImg);
+};
+
+// Bottom Slider
 for (let i = 0; i < bgNumbers.length; i++) {
   bgNumbers[i].addEventListener("click", function() {
-    resetSelectedImageCircle(); // current[0].className = current[0].className.replace(" selectedBg", "");
+    resetSelectedImageCircle();
     childBack = -([i] * imgWidth);
     selectedImg = Math.round(Math.abs(childBack / imgWidth));
     bgSlide.style.left = -([i] * imgWidth) + "px";
