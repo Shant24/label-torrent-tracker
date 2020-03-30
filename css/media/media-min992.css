@@ -5,11 +5,12 @@
   .logoBanner,
   .navContainer,
   .bgContainer,
-  .bgImage,
   .bgBtnContainer,
   .underBg,
   .footerDiv,
-  .contentContainer {
+  .contentContainer,
+  .bgImage,
+  .bgSlideContainer {
     width: 880px;
   }
 
@@ -104,6 +105,21 @@
   .bgContainer,
   .bgImage {
     height: 335px;
+  }
+
+  .bgSlideContainer {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+  }
+
+  .bgSlide {
+    width: inherit;
+    height: inherit;
+  }
+
+  .bgImage {
+    width: inherit;
   }
 
   .bgBtnContainer {
