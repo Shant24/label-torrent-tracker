@@ -533,11 +533,6 @@
     overflow: hidden;
   }
 
-  /* .undeBgDiv1 {
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  } */
-
   .leftNavContainer,
   .rightNavContainer {
     width: 100vw;
@@ -980,5 +975,4 @@
   .developer span {
     color: #ddd;
   }
-
 }
