@@ -129,6 +129,10 @@ nav {
   display: none;
 }
 
+/* .navbar.part3 .p3 {
+  display: none;
+} */
+
 .navbar.part3:hover .p3 {
   display: block;
 }
@@ -281,22 +285,6 @@ main {
   position: relative;
 }
 
-.bgSlideContainer {
-  width: 1100px;
-  height: 419px;
-  overflow: hidden;
-}
-
-.bgSlide {
-  width: auto;
-  height: 419px;
-  display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
-  transition: all ease 1s;
-}
-
 .bgImage {
   margin: 0;
   padding: 0;
@@ -411,7 +399,7 @@ main {
 }
 
 .backgroundContent {
-  position: sticky;
+  position: absolute;
   bottom: 43px;
   right: 25px;
   z-index: 2;
