@@ -26,24 +26,18 @@ const imgLength = document.getElementsByClassName("bgImage").length;
 const bgNumbers = document.getElementsByClassName("bgNumbers");
 let childBack = 0;
 let selectedImg = 0;
+let timer = 0;
+autoSlide();
 
 function resetSelectedImageCircle() {
   let current = document.getElementsByClassName("selectedBg");
   current[0].className = current[0].className.replace(" selectedBg", "");
-//   for (let i = 0; i < current.length; i++){
-//     current[i].className = current[i].className.replace(" selectedBg", "");
-//   }
+  //   for (let i = 0; i < current.length; i++){
+  //     current[i].className = current[i].className.replace(" selectedBg", "");
+  //   }
 }
 
-// Window Resize
-window.addEventListener("resize", () => {
-  imgWidth = document.querySelector(".bgImage").width;
-  childBack = -imgWidth * selectedImg;
-  bgSlide.style.left = childBack + "px";
-});
-
-// Right Button
-bgBtnRight.onclick = function() {
+function nextButton() {
   childBack = -(selectedImg + 1) * imgWidth;
   if (childBack == -(imgLength * imgWidth)) {
     childBack = 0;
@@ -53,7 +47,27 @@ bgBtnRight.onclick = function() {
   let index = Math.abs(childBack / imgWidth);
   bgNumbers[index].classList.add("selectedBg");
   selectedImg = Math.round(Math.abs(childBack / imgWidth));
-  console.log(selectedImg);
+}
+
+// Window Resize
+window.addEventListener("resize", () => {
+  imgWidth = document.querySelector(".bgImage").width;
+  childBack = -imgWidth * selectedImg;
+  bgSlide.style.left = childBack + "px";
+});
+
+// Auto Slide
+function autoSlide() {
+  timer = setInterval(() => {
+    nextButton();
+  }, 5000);
+}
+
+// Right Button
+bgBtnRight.onclick = function() {
+  clearInterval(timer);
+  nextButton();
+  autoSlide();
 };
 
 // Left Button
@@ -67,7 +81,6 @@ bgBtnLeft.onclick = function() {
   let index = Math.abs(childBack / imgWidth);
   bgNumbers[index].classList.add("selectedBg");
   selectedImg = Math.round(Math.abs(childBack / imgWidth));
-  console.log(selectedImg);
 };
 
 // Bottom Slider
@@ -77,7 +90,7 @@ for (let i = 0; i < bgNumbers.length; i++) {
     childBack = -([i] * imgWidth);
     selectedImg = Math.round(Math.abs(childBack / imgWidth));
     bgSlide.style.left = -([i] * imgWidth) + "px";
-    this.className += " selectedBg";  // bgNumbers[i].classList.add("selectedBg");
+    this.className += " selectedBg"; // bgNumbers[i].classList.add("selectedBg");
     console.log(selectedImg);
   });
 }
